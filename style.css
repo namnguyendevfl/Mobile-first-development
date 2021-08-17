@@ -1,5 +1,6 @@
 main {
   margin-top: 60px;
+  padding: 20px 0;
 }
 
 main h1 {
@@ -26,4 +27,28 @@ main h3 {
 main p {
   font-family: "Roboto", sans-serif;
   margin-top: 0;
+  font-size: small;
 }
+
+.group{
+  display: flex;
+}
+.group-double{
+  background-color: #7F5539;
+}
+.item {
+  flex:1;
+  padding: 10px;
+}
+.item-double {
+  flex: 2
+}
+div img {
+  width: 100%;
+}
+
+.img-double{
+  width: 100%;
+}
+
+
